@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Holyfat" ;
+    src: url(./Tipografia/Holyfat.ttf);
+}
+:root{
+    --color-verde-dominante: #4cda00;
+    --color-azul-dominante: #02c6db;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./Imagenes/fondo1.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    height: auto;
+}
+.text-1{
+    font-family: "Holyfat";
+    font-size: 40px;
+}
+.nav-link{
+    color: var(--color-verde-dominante);
+}
+.nav-link:hover{
+    color: white;
+    background-color: var(--color-verde-dominante);
+}
+.b-menu{
+    background: #fff;
+    border-radius: 10px;
+}
+/* fin-sesion-1 */
+.titulo-2{
+    font-weight: 800;
+    font-size: 35px;
+    color: var(--color-verde-dominante);
+}
+.subtitulo-2{
+    font-size: 25px;
+    color: var(--color-verde-dominante);
+}
+.parrafo-2{
+    font-size: 24px;
+    color: var(--color-azul-dominante);
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.835);
+}
+.btn-img{
+    background: var(--color-verde-dominante);
+    border-radius: 70%;
+}
+.btn-img:hover{
+    background-color: #5cff04;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+/* fin sesion-2 */
+.t-video{
+    width: 100%;
+}
+.titulo-3{
+    height: 3rem;
+    font-family: "Holyfat" ;
+    border-radius: 1rem;
+    color: var(--color-verde-dominante);
+    background: rgba(255, 255, 255, 0.589);
+}
+.parrafo-3{
+    font-size: 16pt;
+    color: white;
+    border-radius: 10px;
+    background: #4cda008f;
+}
+/* fin sesion-3 */
+.titulo-4{
+    font-size: 30pt;
+    font-family: "Holyfat" ;
+    border-radius: 1rem;
+    color: var(--color-verde-dominante);
+    background: rgba(255, 255, 255, 0.67);
+}
+.parrafo-4{
+    font-size: 14pt;
+    color: white;
+    background: #4cda008f;
+    border-radius: 10px;
+
+    text-align: start;
+}
+.enlace:hover{
+    text-decoration: underline;
+    color: #0932eddb;
+}
+/*fin sesion-4 */
+.tit-5{
+    font-size: 33pt;
+    font-family: "Holyfat" ;
+    color: var(--color-verde-dominante);
+}
+.iconos{
+    transition: all 0.08s ease;
+}
+.iconos:hover{
+    transition: all 0.08s ease;
+    filter: opacity(50%);
+    cursor: pointer;
+}
+.pie-p{
+    background: rgba(255, 255, 255, 0.587);
+}
+.btn-pie-p:hover{
+    transition: all 0.08s ease;
+    filter: opacity(50%);
+}
